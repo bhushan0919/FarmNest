@@ -1,0 +1,23 @@
+.post-form {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.post-form textarea {
+  resize: vertical;
+  padding: 10px;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  min-height: 80px;
+}
+
+.post-form button {
+  width: 100px;
+  padding: 8px;
+  align-self: flex-end;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}

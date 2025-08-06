@@ -1,0 +1,135 @@
+.community-page {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+}
+
+.community-page h2 {
+  text-align: center;
+  color: #2e7d32;
+  margin-bottom: 20px;
+}
+
+.create-post {
+  background: #ffffff;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.create-post textarea {
+  width: 100%;
+  min-height: 100px;
+  padding: 10px;
+  font-size: 14px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.create-post button {
+  background-color: #2e7d32;
+  color: white;
+  padding: 8px 16px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.create-post button:hover {
+  background-color: #256428;
+}
+
+.search-filter {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.search-filter input,
+.search-filter select {
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.post-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.post {
+  background: #fff;
+  padding: 15px;
+  border-radius: 6px;
+  border-left: 4px solid #2e7d32;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+
+.post h4 {
+  margin: 0 0 10px;
+  color: #444;
+}
+
+.post p {
+  margin: 0;
+}
+
+.comments {
+  margin-top: 10px;
+  padding-left: 15px;
+  border-left: 2px solid #ddd;
+}
+
+.comment {
+  font-size: 13px;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+.comment-input {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.comment-input input {
+  flex: 1;
+  padding: 6px;
+  font-size: 13px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.comment-input button {
+  padding: 6px 12px;
+  background-color: #4caf50;
+  color: white;
+  font-size: 13px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.comment-input button:hover {
+  background-color: #388e3c;
+}
+
+@media (max-width: 600px) {
+  .search-filter {
+    flex-direction: column;
+  }
+
+  .comment-input {
+    flex-direction: column;
+  }
+}
